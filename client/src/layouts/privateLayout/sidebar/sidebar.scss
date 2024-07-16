@@ -1,0 +1,20 @@
+.sidebar {
+  .active {
+    background-color: #1e3155;
+  }
+
+  .route-link {
+    color: #fff;
+    padding: 12px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.2s linear;
+    border-radius: 4px;
+
+    &:hover {
+      background-color: #24385d;
+    }
+  }
+}

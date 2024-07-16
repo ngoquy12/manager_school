@@ -1,0 +1,28 @@
+.input {
+  border: 1px solid #dadada;
+  height: 36px;
+  padding: 0 16px;
+  outline: none;
+  border-radius: 4px;
+  transition: all 0.2s linear;
+
+  &:hover {
+    border-color: #0062cc;
+  }
+
+  &:focus {
+    border-color: #007aff;
+  }
+}
+
+.dangerous {
+  border-color: #f93d3d;
+
+  &:hover {
+    border-color: #f06666;
+  }
+
+  &:focus {
+    border-color: #d42222;
+  }
+}

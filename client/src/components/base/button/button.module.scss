@@ -1,0 +1,79 @@
+@import url("../../../styles/variables.module.scss");
+
+.button {
+  border: 1px solid transparent;
+  outline: none;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  padding: 0 16px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+
+  &:disabled {
+    cursor: default;
+    opacity: 0.5;
+  }
+}
+
+.lg {
+  height: 40px;
+}
+
+.sm {
+  height: 30px;
+}
+
+.df {
+  height: 36px;
+}
+
+.primary {
+  background-color: #0062cc;
+
+  &:hover {
+    background-color: #3395ff;
+  }
+
+  &:focus {
+    background-color: #004999;
+  }
+}
+
+.danger {
+  background-color: #b80000;
+
+  &:hover {
+    background-color: #eb3333;
+  }
+
+  &:focus {
+    background-color: #8a0000;
+  }
+}
+
+.warning {
+  background-color: #cc7a00;
+
+  &:hover {
+    background-color: #ffad33;
+  }
+
+  &:focus {
+    background-color: #995b00;
+  }
+}
+
+.secondary {
+  background-color: #fff;
+  border: 1px solid #8e8c8c;
+  color: #333;
+
+  &:hover {
+    background-color: #e0e0e0;
+  }
+
+  &:focus {
+    background-color: #bdbdbd;
+  }
+}

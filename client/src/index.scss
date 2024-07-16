@@ -1,0 +1,77 @@
+@import url(../src/styles/font.module.scss);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: font-regular;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e1dcdc;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #f1f1f1;
+  width: 5px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: auto 0;
+}
+
+input[type="date"] {
+  font-family: font-regular;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-dark {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay-light {
+  background-color: rgba(233, 233, 233, 0.8);
+}
+
+.bg-light {
+  background-color: #fff;
+  color: #111111;
+}
+
+.bg-dark {
+  background-color: #111111;
+  color: #fff;
+}
